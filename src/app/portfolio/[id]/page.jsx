@@ -44,6 +44,7 @@ export default function ProjectDetail({ params }) {
   return (
     <div className={styles.projectDetail}>
       <div className={styles.projectHeader}>
+      <h1 className={styles.updateHeader}>I am updating this page</h1>
         <h2>{project.title}</h2>
         <p>{project.description}</p>
       </div>

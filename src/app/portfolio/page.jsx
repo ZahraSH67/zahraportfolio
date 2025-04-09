@@ -40,6 +40,7 @@ export default function Portfolio() {
     <div className={styles.portfolioPage}>
       <section className={styles.portfolioSection}>
         <div className={styles.sectionTitle}>
+          <h1 className={styles.updateHeader}>I am updating this page</h1>
           <h2>My Projects</h2>
           <p>Explore the projects I've worked on and their details.</p>
         </div>
