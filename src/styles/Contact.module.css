@@ -70,6 +70,53 @@
   .sendButton:hover {
     background-color: #005fa3;
   }
+
+  .thankYou {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e6f7ff;
+    border-radius: 16px;
+    animation: fadeInPop 0.6s ease-out;
+    box-shadow: 0 10px 25px rgba(0, 119, 204, 0.1);
+  }
+  
+  .thankYou .icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    animation: bounce 1.5s infinite;
+  }
+  
+  .thankYou h3 {
+    color: #0077cc;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .thankYou p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  @keyframes fadeInPop {
+    0% {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-6px);
+    }
+  }
+  
   
   @media (max-width: 600px) {
     .sectionTitle h2 {

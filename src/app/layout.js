@@ -1,7 +1,6 @@
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import Script from 'next/script'
 
 export const metadata = {
   title: 'Zahra Shahabi - Frontend Developer',
@@ -20,8 +19,6 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
-        <Script src="/scripts/typed.js" strategy="lazyOnload" />
-        <Script src="/scripts/counter.js" strategy="lazyOnload" />
       </body>
     </html>
   )
