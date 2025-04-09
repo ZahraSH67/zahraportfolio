@@ -1,0 +1,101 @@
+.projectDetail {
+    padding: 120px 20px 60px;
+    background-color: #f5faff;
+    min-height: 100vh;
+  }
+  
+
+  .projectHeader h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1e3a8a; 
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .projectHeader p {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 30px;
+  }
+  
+
+  .projectMeta {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .projectMeta span {
+    font-weight: bold;
+    color: #1d4ed8;
+  }
+  
+
+  .githubButton {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #1d4ed8;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    text-decoration: none;
+    width: fit-content;
+    transition: background 0.3s ease;
+  }
+  
+  .githubButton:hover {
+    background-color: #2563eb;
+  }
+  
+
+  .swiperWrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+  
+  .slideImage {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .slideImage:hover {
+    transform: scale(1.02);
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .projectHeader h2 {
+      font-size: 2rem;
+    }
+  
+    .projectHeader p {
+      font-size: 1rem;
+    }
+  
+    .projectMeta {
+      padding: 20px;
+      font-size: 1rem;
+    }
+  
+    .slideImage {
+      height: 200px;
+    }
+  }
+  
+  
